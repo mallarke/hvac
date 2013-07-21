@@ -1,0 +1,35 @@
+//
+// Prefix header for all source files of the 'HVAC Planner' target in the 'HVAC Planner' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+
+    #import "NSDictionary+BaseValues.h"
+    #import "NSMutableDictionary+BaseValues.h"
+    #import "NSObject+NewData.h"
+    #import "NSString+URL.h"
+    #import "UIImage+CustomInit.h"
+    #import "UIImageView+CustomInit.h"
+    #import "UITableView+CustomInit.h"
+    #import "UIView+Center.h"
+    #import "UIView+CustomInit.h"
+    #import "UIView+Frame.h"
+
+    #import "colors.h"
+    #import "fonts.h"
+    #import "strings.h"
+    #import "values.h"
+
+    #import "Utility.h"
+    #import "DataController.h"
+
+#endif

@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25879FCC179BA0270004C518 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25879FCB179BA0270004C518 /* UIKit.framework */; };
+		25879FCE179BA0270004C518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25879FCD179BA0270004C518 /* Foundation.framework */; };
+		25879FD0179BA0270004C518 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25879FCF179BA0270004C518 /* CoreGraphics.framework */; };
+		25879FD2179BA0270004C518 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25879FD1179BA0270004C518 /* CoreData.framework */; };
+		2587A001179BA0A20004C518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25879FF0179BA0A20004C518 /* AppDelegate.m */; };
+		2587A002179BA0A20004C518 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25879FF1179BA0A20004C518 /* InfoPlist.strings */; };
+		2587A004179BA0A20004C518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25879FF5179BA0A20004C518 /* main.m */; };
+		2587A005179BA0A20004C518 /* HVAC_Planner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25879FF8179BA0A20004C518 /* HVAC_Planner.xcdatamodeld */; };
+		2587A006179BA0A20004C518 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25879FFC179BA0A20004C518 /* Default-568h@2x.png */; };
+		2587A007179BA0A20004C518 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25879FFD179BA0A20004C518 /* Default@2x.png */; };
+		2587A008179BA0A20004C518 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 25879FFF179BA0A20004C518 /* Default.png */; };
+		2587A020179BA13A0004C518 /* NSDictionary+BaseValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A00B179BA13A0004C518 /* NSDictionary+BaseValues.m */; };
+		2587A021179BA13A0004C518 /* NSMutableDictionary+BaseValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A00D179BA13A0004C518 /* NSMutableDictionary+BaseValues.m */; };
+		2587A022179BA13A0004C518 /* NSObject+NewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A00F179BA13A0004C518 /* NSObject+NewData.m */; };
+		2587A023179BA13A0004C518 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A011179BA13A0004C518 /* NSString+URL.m */; };
+		2587A025179BA13A0004C518 /* UIImage+CustomInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A015179BA13A0004C518 /* UIImage+CustomInit.m */; };
+		2587A026179BA13A0004C518 /* UIImageView+CustomInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A017179BA13A0004C518 /* UIImageView+CustomInit.m */; };
+		2587A027179BA13A0004C518 /* UITableView+CustomInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A019179BA13A0004C518 /* UITableView+CustomInit.m */; };
+		2587A028179BA13A0004C518 /* UIView+Center.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A01B179BA13A0004C518 /* UIView+Center.m */; };
+		2587A029179BA13A0004C518 /* UIView+CustomInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A01D179BA13A0004C518 /* UIView+CustomInit.m */; };
+		2587A02A179BA13A0004C518 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A01F179BA13A0004C518 /* UIView+Frame.m */; };
+		2587A02F179BA1C00004C518 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A02E179BA1C00004C518 /* Utility.m */; };
+		2587A037179BA45A0004C518 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A036179BA45A0004C518 /* DataController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25879FC8179BA0270004C518 /* HVAC Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HVAC Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25879FCB179BA0270004C518 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25879FCD179BA0270004C518 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25879FCF179BA0270004C518 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25879FD1179BA0270004C518 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25879FEF179BA0A20004C518 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25879FF0179BA0A20004C518 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25879FF2179BA0A20004C518 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25879FF3179BA0A20004C518 /* HVAC Planner-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HVAC Planner-Info.plist"; sourceTree = "<group>"; };
+		25879FF4179BA0A20004C518 /* HVAC Planner-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HVAC Planner-Prefix.pch"; sourceTree = "<group>"; };
+		25879FF5179BA0A20004C518 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25879FF9179BA0A20004C518 /* HVAC_Planner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HVAC_Planner.xcdatamodel; sourceTree = "<group>"; };
+		25879FFC179BA0A20004C518 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		25879FFD179BA0A20004C518 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		25879FFF179BA0A20004C518 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2587A00A179BA13A0004C518 /* NSDictionary+BaseValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BaseValues.h"; sourceTree = "<group>"; };
+		2587A00B179BA13A0004C518 /* NSDictionary+BaseValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BaseValues.m"; sourceTree = "<group>"; };
+		2587A00C179BA13A0004C518 /* NSMutableDictionary+BaseValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+BaseValues.h"; sourceTree = "<group>"; };
+		2587A00D179BA13A0004C518 /* NSMutableDictionary+BaseValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+BaseValues.m"; sourceTree = "<group>"; };
+		2587A00E179BA13A0004C518 /* NSObject+NewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NewData.h"; sourceTree = "<group>"; };
+		2587A00F179BA13A0004C518 /* NSObject+NewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NewData.m"; sourceTree = "<group>"; };
+		2587A010179BA13A0004C518 /* NSString+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
+		2587A011179BA13A0004C518 /* NSString+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
+		2587A014179BA13A0004C518 /* UIImage+CustomInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CustomInit.h"; sourceTree = "<group>"; };
+		2587A015179BA13A0004C518 /* UIImage+CustomInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CustomInit.m"; sourceTree = "<group>"; };
+		2587A016179BA13A0004C518 /* UIImageView+CustomInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CustomInit.h"; sourceTree = "<group>"; };
+		2587A017179BA13A0004C518 /* UIImageView+CustomInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CustomInit.m"; sourceTree = "<group>"; };
+		2587A018179BA13A0004C518 /* UITableView+CustomInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CustomInit.h"; sourceTree = "<group>"; };
+		2587A019179BA13A0004C518 /* UITableView+CustomInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CustomInit.m"; sourceTree = "<group>"; };
+		2587A01A179BA13A0004C518 /* UIView+Center.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Center.h"; sourceTree = "<group>"; };
+		2587A01B179BA13A0004C518 /* UIView+Center.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Center.m"; sourceTree = "<group>"; };
+		2587A01C179BA13A0004C518 /* UIView+CustomInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomInit.h"; sourceTree = "<group>"; };
+		2587A01D179BA13A0004C518 /* UIView+CustomInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomInit.m"; sourceTree = "<group>"; };
+		2587A01E179BA13A0004C518 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		2587A01F179BA13A0004C518 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		2587A02D179BA1C00004C518 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		2587A02E179BA1C00004C518 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		2587A031179BA3D70004C518 /* strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = strings.h; sourceTree = "<group>"; };
+		2587A032179BA3E40004C518 /* values.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = values.h; sourceTree = "<group>"; };
+		2587A033179BA3FD0004C518 /* colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colors.h; sourceTree = "<group>"; };
+		2587A034179BA4140004C518 /* fonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fonts.h; sourceTree = "<group>"; };
+		2587A035179BA45A0004C518 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		2587A036179BA45A0004C518 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25879FC5179BA0270004C518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25879FCC179BA0270004C518 /* UIKit.framework in Frameworks */,
+				25879FCE179BA0270004C518 /* Foundation.framework in Frameworks */,
+				25879FD0179BA0270004C518 /* CoreGraphics.framework in Frameworks */,
+				25879FD2179BA0270004C518 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25879FBF179BA0270004C518 = {
+			isa = PBXGroup;
+			children = (
+				25879FED179BA0A20004C518 /* classes */,
+				25879FF6179BA0A20004C518 /* ctrl */,
+				25879FF7179BA0A20004C518 /* data */,
+				25879FEE179BA0A20004C518 /* core */,
+				25879FFA179BA0A20004C518 /* res */,
+				2587A02B179BA1990004C518 /* utility */,
+				2587A009179BA13A0004C518 /* categories */,
+				25879FCA179BA0270004C518 /* Frameworks */,
+				25879FC9179BA0270004C518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25879FC9179BA0270004C518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25879FC8179BA0270004C518 /* HVAC Planner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25879FCA179BA0270004C518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25879FCB179BA0270004C518 /* UIKit.framework */,
+				25879FCD179BA0270004C518 /* Foundation.framework */,
+				25879FCF179BA0270004C518 /* CoreGraphics.framework */,
+				25879FD1179BA0270004C518 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25879FED179BA0A20004C518 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		25879FEE179BA0A20004C518 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				25879FEF179BA0A20004C518 /* AppDelegate.h */,
+				25879FF0179BA0A20004C518 /* AppDelegate.m */,
+				25879FF1179BA0A20004C518 /* InfoPlist.strings */,
+				25879FF3179BA0A20004C518 /* HVAC Planner-Info.plist */,
+				25879FF4179BA0A20004C518 /* HVAC Planner-Prefix.pch */,
+				25879FF5179BA0A20004C518 /* main.m */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		25879FF6179BA0A20004C518 /* ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				2587A035179BA45A0004C518 /* DataController.h */,
+				2587A036179BA45A0004C518 /* DataController.m */,
+			);
+			path = ctrl;
+			sourceTree = "<group>";
+		};
+		25879FF7179BA0A20004C518 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				25879FF8179BA0A20004C518 /* HVAC_Planner.xcdatamodeld */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		25879FFA179BA0A20004C518 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				25879FFB179BA0A20004C518 /* hires */,
+				25879FFE179BA0A20004C518 /* lowres */,
+				2587A000179BA0A20004C518 /* values */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		25879FFB179BA0A20004C518 /* hires */ = {
+			isa = PBXGroup;
+			children = (
+				25879FFC179BA0A20004C518 /* Default-568h@2x.png */,
+				25879FFD179BA0A20004C518 /* Default@2x.png */,
+			);
+			path = hires;
+			sourceTree = "<group>";
+		};
+		25879FFE179BA0A20004C518 /* lowres */ = {
+			isa = PBXGroup;
+			children = (
+				25879FFF179BA0A20004C518 /* Default.png */,
+			);
+			path = lowres;
+			sourceTree = "<group>";
+		};
+		2587A000179BA0A20004C518 /* values */ = {
+			isa = PBXGroup;
+			children = (
+				2587A033179BA3FD0004C518 /* colors.h */,
+				2587A034179BA4140004C518 /* fonts.h */,
+				2587A031179BA3D70004C518 /* strings.h */,
+				2587A032179BA3E40004C518 /* values.h */,
+			);
+			path = values;
+			sourceTree = "<group>";
+		};
+		2587A009179BA13A0004C518 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				2587A00A179BA13A0004C518 /* NSDictionary+BaseValues.h */,
+				2587A00B179BA13A0004C518 /* NSDictionary+BaseValues.m */,
+				2587A00C179BA13A0004C518 /* NSMutableDictionary+BaseValues.h */,
+				2587A00D179BA13A0004C518 /* NSMutableDictionary+BaseValues.m */,
+				2587A00E179BA13A0004C518 /* NSObject+NewData.h */,
+				2587A00F179BA13A0004C518 /* NSObject+NewData.m */,
+				2587A010179BA13A0004C518 /* NSString+URL.h */,
+				2587A011179BA13A0004C518 /* NSString+URL.m */,
+				2587A014179BA13A0004C518 /* UIImage+CustomInit.h */,
+				2587A015179BA13A0004C518 /* UIImage+CustomInit.m */,
+				2587A016179BA13A0004C518 /* UIImageView+CustomInit.h */,
+				2587A017179BA13A0004C518 /* UIImageView+CustomInit.m */,
+				2587A018179BA13A0004C518 /* UITableView+CustomInit.h */,
+				2587A019179BA13A0004C518 /* UITableView+CustomInit.m */,
+				2587A01A179BA13A0004C518 /* UIView+Center.h */,
+				2587A01B179BA13A0004C518 /* UIView+Center.m */,
+				2587A01C179BA13A0004C518 /* UIView+CustomInit.h */,
+				2587A01D179BA13A0004C518 /* UIView+CustomInit.m */,
+				2587A01E179BA13A0004C518 /* UIView+Frame.h */,
+				2587A01F179BA13A0004C518 /* UIView+Frame.m */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		2587A02B179BA1990004C518 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				2587A02D179BA1C00004C518 /* Utility.h */,
+				2587A02E179BA1C00004C518 /* Utility.m */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25879FC7179BA0270004C518 /* HVAC Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25879FEA179BA0270004C518 /* Build configuration list for PBXNativeTarget "HVAC Planner" */;
+			buildPhases = (
+				25879FC4179BA0270004C518 /* Sources */,
+				25879FC5179BA0270004C518 /* Frameworks */,
+				25879FC6179BA0270004C518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HVAC Planner";
+			productName = "HVAC Planner";
+			productReference = 25879FC8179BA0270004C518 /* HVAC Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25879FC0179BA0270004C518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "shadow coding";
+			};
+			buildConfigurationList = 25879FC3179BA0270004C518 /* Build configuration list for PBXProject "HVAC Planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25879FBF179BA0270004C518;
+			productRefGroup = 25879FC9179BA0270004C518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25879FC7179BA0270004C518 /* HVAC Planner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25879FC6179BA0270004C518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2587A002179BA0A20004C518 /* InfoPlist.strings in Resources */,
+				2587A006179BA0A20004C518 /* Default-568h@2x.png in Resources */,
+				2587A007179BA0A20004C518 /* Default@2x.png in Resources */,
+				2587A008179BA0A20004C518 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25879FC4179BA0270004C518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2587A001179BA0A20004C518 /* AppDelegate.m in Sources */,
+				2587A004179BA0A20004C518 /* main.m in Sources */,
+				2587A005179BA0A20004C518 /* HVAC_Planner.xcdatamodeld in Sources */,
+				2587A020179BA13A0004C518 /* NSDictionary+BaseValues.m in Sources */,
+				2587A021179BA13A0004C518 /* NSMutableDictionary+BaseValues.m in Sources */,
+				2587A022179BA13A0004C518 /* NSObject+NewData.m in Sources */,
+				2587A023179BA13A0004C518 /* NSString+URL.m in Sources */,
+				2587A025179BA13A0004C518 /* UIImage+CustomInit.m in Sources */,
+				2587A026179BA13A0004C518 /* UIImageView+CustomInit.m in Sources */,
+				2587A027179BA13A0004C518 /* UITableView+CustomInit.m in Sources */,
+				2587A028179BA13A0004C518 /* UIView+Center.m in Sources */,
+				2587A029179BA13A0004C518 /* UIView+CustomInit.m in Sources */,
+				2587A02A179BA13A0004C518 /* UIView+Frame.m in Sources */,
+				2587A02F179BA1C00004C518 /* Utility.m in Sources */,
+				2587A037179BA45A0004C518 /* DataController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25879FF1179BA0A20004C518 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25879FF2179BA0A20004C518 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25879FE8179BA0270004C518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25879FE9179BA0270004C518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25879FEB179BA0270004C518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "core/HVAC Planner-Prefix.pch";
+				INFOPLIST_FILE = "core/HVAC Planner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25879FEC179BA0270004C518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "core/HVAC Planner-Prefix.pch";
+				INFOPLIST_FILE = "core/HVAC Planner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25879FC3179BA0270004C518 /* Build configuration list for PBXProject "HVAC Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25879FE8179BA0270004C518 /* Debug */,
+				25879FE9179BA0270004C518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25879FEA179BA0270004C518 /* Build configuration list for PBXNativeTarget "HVAC Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25879FEB179BA0270004C518 /* Debug */,
+				25879FEC179BA0270004C518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25879FF8179BA0A20004C518 /* HVAC_Planner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25879FF9179BA0A20004C518 /* HVAC_Planner.xcdatamodel */,
+			);
+			currentVersion = 25879FF9179BA0A20004C518 /* HVAC_Planner.xcdatamodel */;
+			path = HVAC_Planner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25879FC0179BA0270004C518 /* Project object */;
+}
