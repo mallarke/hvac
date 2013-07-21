@@ -249,3 +249,32 @@ NSString *stringFromDate(NSDate *date, DateFormat format)
     
     return [dateFormatter(formatText) stringFromDate:date];
 }
+
+PanDirection get_pan_direction(CGPoint currentLocation, CGPoint initialLocation)
+{
+    CGFloat cX = currentLocation.x;
+    CGFloat iX = initialLocation.x;
+    
+    if(cX == iX)
+    {
+        return PanDirection_NONE;
+    }
+    
+    if(cX < iX)
+    {
+        return PanDirection_FORWARDS;
+    }
+    
+    return PanDirection_BACKWARDS;
+}
+
+
+
+
+
+
+
+
+
+
+

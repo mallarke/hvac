@@ -10,6 +10,12 @@
 
 @interface DataController : NSObject
 
+@property (readonly) NSArray *favorites;
+
 + (DataController *)sharedData;
+
+- (void)addFavorite:(id)item;
+
+- (void)saveDataContext;
 
 @end

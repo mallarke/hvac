@@ -32,3 +32,12 @@ NSString *dateFromDictionary(NSDictionary *dictionary, NSString *key);
 NSDate *dateFromString(NSString *string);
 NSString *string(int value);
 NSString *stringFromDate(NSDate *date, DateFormat format);
+
+typedef enum
+{
+    PanDirection_NONE,
+    PanDirection_BACKWARDS,
+    PanDirection_FORWARDS
+} PanDirection;
+
+PanDirection get_pan_direction(CGPoint currentLocation, CGPoint initialLocation);

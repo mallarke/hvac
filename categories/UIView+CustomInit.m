@@ -15,4 +15,12 @@
     return [[[self alloc] initWithFrame:frame] autorelease];
 }
 
+- (void)removeAllSubviews
+{
+    for(UIView *subview in self.subviews)
+    {
+        [subview removeFromSuperview];
+    }
+}
+
 @end

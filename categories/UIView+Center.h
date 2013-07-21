@@ -14,4 +14,7 @@
 - (void)centerHorizontal;
 - (void)centerVertical;
 
+- (void)alignLeft;
+- (void)alignRight;
+
 @end

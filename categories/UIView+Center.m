@@ -38,4 +38,14 @@
     self.frame = frame;
 }
 
+- (void)alignLeft
+{
+    self.x = 0;
+}
+
+- (void)alignRight
+{
+    self.x = self.superview.width - self.width;
+}
+
 @end

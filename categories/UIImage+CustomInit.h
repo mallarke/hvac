@@ -10,6 +10,7 @@
 
 @interface UIImage (CustomInit)
 
++ (UIImage *)image:(NSString *)name;
 + (UIImage *)resizableImageNamed:(NSString *)name;
 
 @end

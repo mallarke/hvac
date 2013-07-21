@@ -12,6 +12,7 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
+    #import <QuartzCore/QuartzCore.h>
 
     #import "NSDictionary+BaseValues.h"
     #import "NSMutableDictionary+BaseValues.h"
@@ -26,6 +27,7 @@
 
     #import "colors.h"
     #import "fonts.h"
+    #import "images.h"
     #import "strings.h"
     #import "values.h"
 

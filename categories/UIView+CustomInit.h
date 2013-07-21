@@ -11,5 +11,6 @@
 @interface UIView (CustomInit)
 
 + (id)viewWithFrame:(CGRect)frame;
+- (void)removeAllSubviews;
 
 @end

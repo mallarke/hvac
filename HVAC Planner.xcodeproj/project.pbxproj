@@ -30,6 +30,13 @@
 		2587A02A179BA13A0004C518 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A01F179BA13A0004C518 /* UIView+Frame.m */; };
 		2587A02F179BA1C00004C518 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A02E179BA1C00004C518 /* Utility.m */; };
 		2587A037179BA45A0004C518 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A036179BA45A0004C518 /* DataController.m */; };
+		2587A03D179BA7810004C518 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A03C179BA7810004C518 /* RootViewController.m */; };
+		2587A040179BA78E0004C518 /* RootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A03F179BA78E0004C518 /* RootView.m */; };
+		2587A047179BAA380004C518 /* ViewPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587A046179BAA380004C518 /* ViewPager.m */; };
+		2587A04C179BB1260004C518 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2587A04B179BB1260004C518 /* QuartzCore.framework */; };
+		2587A04E179BB1410004C518 /* gp000_backgrounds_app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2587A04D179BB1410004C518 /* gp000_backgrounds_app@2x.png */; };
+		2587A050179BB14D0004C518 /* gp000_backgrounds_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 2587A04F179BB14D0004C518 /* gp000_backgrounds_app.png */; };
+		25CC475D179BC94A00B2625B /* ViewPagerHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CC475C179BC94A00B2625B /* ViewPagerHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +83,19 @@
 		2587A034179BA4140004C518 /* fonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fonts.h; sourceTree = "<group>"; };
 		2587A035179BA45A0004C518 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
 		2587A036179BA45A0004C518 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		2587A03B179BA7810004C518 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2587A03C179BA7810004C518 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2587A03E179BA78E0004C518 /* RootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootView.h; sourceTree = "<group>"; };
+		2587A03F179BA78E0004C518 /* RootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootView.m; sourceTree = "<group>"; };
+		2587A045179BAA380004C518 /* ViewPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPager.h; sourceTree = "<group>"; };
+		2587A046179BAA380004C518 /* ViewPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPager.m; sourceTree = "<group>"; };
+		2587A04B179BB1260004C518 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2587A04D179BB1410004C518 /* gp000_backgrounds_app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gp000_backgrounds_app@2x.png"; sourceTree = "<group>"; };
+		2587A04F179BB14D0004C518 /* gp000_backgrounds_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gp000_backgrounds_app.png; sourceTree = "<group>"; };
+		2587A051179BB1620004C518 /* images.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = images.h; sourceTree = "<group>"; };
+		25CC475B179BC94A00B2625B /* ViewPagerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPagerHeader.h; sourceTree = "<group>"; };
+		25CC475C179BC94A00B2625B /* ViewPagerHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPagerHeader.m; sourceTree = "<group>"; };
+		25CC4761179C10C100B2625B /* ViewPagerHeader_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewPagerHeader_Private.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +107,7 @@
 				25879FCE179BA0270004C518 /* Foundation.framework in Frameworks */,
 				25879FD0179BA0270004C518 /* CoreGraphics.framework in Frameworks */,
 				25879FD2179BA0270004C518 /* CoreData.framework in Frameworks */,
+				2587A04C179BB1260004C518 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +140,7 @@
 		25879FCA179BA0270004C518 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2587A04B179BB1260004C518 /* QuartzCore.framework */,
 				25879FCB179BA0270004C518 /* UIKit.framework */,
 				25879FCD179BA0270004C518 /* Foundation.framework */,
 				25879FCF179BA0270004C518 /* CoreGraphics.framework */,
@@ -130,6 +152,9 @@
 		25879FED179BA0A20004C518 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				2587A039179BA7690004C518 /* base */,
+				2587A038179BA6F00004C518 /* components */,
+				2587A03A179BA7690004C518 /* rootViewController */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -179,6 +204,7 @@
 			children = (
 				25879FFC179BA0A20004C518 /* Default-568h@2x.png */,
 				25879FFD179BA0A20004C518 /* Default@2x.png */,
+				2587A04D179BB1410004C518 /* gp000_backgrounds_app@2x.png */,
 			);
 			path = hires;
 			sourceTree = "<group>";
@@ -187,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				25879FFF179BA0A20004C518 /* Default.png */,
+				2587A04F179BB14D0004C518 /* gp000_backgrounds_app.png */,
 			);
 			path = lowres;
 			sourceTree = "<group>";
@@ -196,6 +223,7 @@
 			children = (
 				2587A033179BA3FD0004C518 /* colors.h */,
 				2587A034179BA4140004C518 /* fonts.h */,
+				2587A051179BB1620004C518 /* images.h */,
 				2587A031179BA3D70004C518 /* strings.h */,
 				2587A032179BA3E40004C518 /* values.h */,
 			);
@@ -236,6 +264,44 @@
 				2587A02E179BA1C00004C518 /* Utility.m */,
 			);
 			path = utility;
+			sourceTree = "<group>";
+		};
+		2587A038179BA6F00004C518 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				2587A041179BAA1A0004C518 /* viewPager */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		2587A039179BA7690004C518 /* base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		2587A03A179BA7690004C518 /* rootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2587A03B179BA7810004C518 /* RootViewController.h */,
+				2587A03C179BA7810004C518 /* RootViewController.m */,
+				2587A03E179BA78E0004C518 /* RootView.h */,
+				2587A03F179BA78E0004C518 /* RootView.m */,
+			);
+			path = rootViewController;
+			sourceTree = "<group>";
+		};
+		2587A041179BAA1A0004C518 /* viewPager */ = {
+			isa = PBXGroup;
+			children = (
+				2587A045179BAA380004C518 /* ViewPager.h */,
+				2587A046179BAA380004C518 /* ViewPager.m */,
+				25CC475B179BC94A00B2625B /* ViewPagerHeader.h */,
+				25CC4761179C10C100B2625B /* ViewPagerHeader_Private.h */,
+				25CC475C179BC94A00B2625B /* ViewPagerHeader.m */,
+			);
+			path = viewPager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +359,8 @@
 				2587A006179BA0A20004C518 /* Default-568h@2x.png in Resources */,
 				2587A007179BA0A20004C518 /* Default@2x.png in Resources */,
 				2587A008179BA0A20004C518 /* Default.png in Resources */,
+				2587A04E179BB1410004C518 /* gp000_backgrounds_app@2x.png in Resources */,
+				2587A050179BB14D0004C518 /* gp000_backgrounds_app.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +386,10 @@
 				2587A02A179BA13A0004C518 /* UIView+Frame.m in Sources */,
 				2587A02F179BA1C00004C518 /* Utility.m in Sources */,
 				2587A037179BA45A0004C518 /* DataController.m in Sources */,
+				2587A03D179BA7810004C518 /* RootViewController.m in Sources */,
+				2587A040179BA78E0004C518 /* RootView.m in Sources */,
+				2587A047179BAA380004C518 /* ViewPager.m in Sources */,
+				25CC475D179BC94A00B2625B /* ViewPagerHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +502,7 @@
 				25879FEC179BA0270004C518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

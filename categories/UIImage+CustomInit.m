@@ -10,6 +10,11 @@
 
 @implementation UIImage (CustomInit)
 
++ (UIImage *)image:(NSString *)name
+{
+    return [self imageNamed:name];
+}
+
 + (UIImage *)resizableImageNamed:(NSString *)name
 {
     UIImage *image = [UIImage imageNamed:name];
